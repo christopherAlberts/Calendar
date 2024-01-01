@@ -4,9 +4,9 @@ from datetime import date
 
 def calender():
     # Get the current year, month, and day
-    current_year = date.today().year
+    current_year  = date.today().year
     current_month = date.today().month
-    current_day = date.today().day
+    current_day   = date.today().day
 
     # Generate the calendar for the current month
     cal = calendar.monthcalendar(current_year, current_month)
